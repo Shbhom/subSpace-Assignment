@@ -1,0 +1,23 @@
+{
+  "name": "subspaceinternship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.18",
+    "@types/lodash": "^4.14.199",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21"
+  }
+}
